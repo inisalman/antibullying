@@ -1,4 +1,5 @@
-const db = require('../../lib/localDb')
+// Use Vercel-compatible database (in-memory)
+const db = require('../../lib/vercelDb')
 const { addAnswerToSheet } = require('../../lib/googleSheets')
 
 export default async function handler(req, res) {
