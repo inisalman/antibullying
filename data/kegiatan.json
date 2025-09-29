@@ -1,0 +1,426 @@
+[
+  {
+    "id": "id_cokov26dpmg3lped6",
+    "sesi_id": "id_rg9heatn7mg3lpecz",
+    "nama_kegiatan": "Ice Breaking",
+    "deskripsi": "Perkenalan diri dan kalimat positif",
+    "created_at": "2025-09-28T11:13:02.970Z",
+    "updated_at": "2025-09-28T11:13:02.970Z"
+  },
+  {
+    "id": "id_xi7rgauj5mg3lped6",
+    "sesi_id": "id_rg9heatn7mg3lpecz",
+    "nama_kegiatan": "Sharing Ekspektasi",
+    "deskripsi": "Berbagi harapan tentang program anti-bullying",
+    "created_at": "2025-09-28T11:13:02.970Z",
+    "updated_at": "2025-09-28T11:13:02.970Z"
+  },
+  {
+    "id": "id_ifj3y0v7smg3lped6",
+    "sesi_id": "id_rg9heatn7mg3lpecz",
+    "nama_kegiatan": "Pre-Test",
+    "deskripsi": "Tes awal untuk mengukur pengetahuan tentang bullying",
+    "created_at": "2025-09-28T11:13:02.970Z",
+    "updated_at": "2025-09-28T11:13:02.970Z"
+  },
+  {
+    "id": "id_gt9eqal48mg3lped7",
+    "sesi_id": "id_yvb01bh20mg3lped6",
+    "nama_kegiatan": "Definisi Bullying",
+    "deskripsi": "Memahami apa itu bullying dan ciri-cirinya",
+    "created_at": "2025-09-28T11:13:02.971Z",
+    "updated_at": "2025-09-28T11:13:02.971Z"
+  },
+  {
+    "id": "id_lviby2kmxmg3lped7",
+    "sesi_id": "id_yvb01bh20mg3lped6",
+    "nama_kegiatan": "Jenis-jenis Bullying",
+    "deskripsi": "Mengenal berbagai jenis bullying (fisik, verbal, cyber)",
+    "created_at": "2025-09-28T11:13:02.971Z",
+    "updated_at": "2025-09-28T11:13:02.971Z"
+  },
+  {
+    "id": "id_0o35lai9cmg3lped7",
+    "sesi_id": "id_yvb01bh20mg3lped6",
+    "nama_kegiatan": "Dampak Bullying",
+    "deskripsi": "Memahami dampak bullying pada korban dan pelaku",
+    "created_at": "2025-09-28T11:13:02.971Z",
+    "updated_at": "2025-09-28T11:13:02.971Z"
+  },
+  {
+    "id": "id_vhnx2hepamg3lped7",
+    "sesi_id": "id_38y821d9emg3lped7",
+    "nama_kegiatan": "Strategi Komunikasi",
+    "deskripsi": "Cara berkomunikasi yang efektif saat menghadapi bullying",
+    "created_at": "2025-09-28T11:13:02.971Z",
+    "updated_at": "2025-09-28T11:13:02.971Z"
+  },
+  {
+    "id": "id_ocxsbptdtmg3lped7",
+    "sesi_id": "id_38y821d9emg3lped7",
+    "nama_kegiatan": "Role Play",
+    "deskripsi": "Praktik situasi menghadapi bullying",
+    "created_at": "2025-09-28T11:13:02.971Z",
+    "updated_at": "2025-09-28T11:13:02.971Z"
+  },
+  {
+    "id": "id_9fdpirvv1mg3lped8",
+    "sesi_id": "id_38y821d9emg3lped7",
+    "nama_kegiatan": "Membangun Kepercayaan Diri",
+    "deskripsi": "Teknik meningkatkan kepercayaan diri",
+    "created_at": "2025-09-28T11:13:02.972Z",
+    "updated_at": "2025-09-28T11:13:02.972Z"
+  },
+  {
+    "id": "id_jrhixbtmmmg3lped8",
+    "sesi_id": "id_fqg1ovvg8mg3lped8",
+    "nama_kegiatan": "Ciri-ciri Teman Sejati",
+    "deskripsi": "Mengenal karakteristik teman yang baik",
+    "created_at": "2025-09-28T11:13:02.972Z",
+    "updated_at": "2025-09-28T11:13:02.972Z"
+  },
+  {
+    "id": "id_qpdsjz620mg3lped8",
+    "sesi_id": "id_fqg1ovvg8mg3lped8",
+    "nama_kegiatan": "Membangun Persahabatan",
+    "deskripsi": "Cara membangun hubungan persahabatan yang sehat",
+    "created_at": "2025-09-28T11:13:02.972Z",
+    "updated_at": "2025-09-28T11:13:02.972Z"
+  },
+  {
+    "id": "id_los27yy9lmg3lped8",
+    "sesi_id": "id_fqg1ovvg8mg3lped8",
+    "nama_kegiatan": "Mendukung Teman",
+    "deskripsi": "Cara mendukung teman yang mengalami bullying",
+    "created_at": "2025-09-28T11:13:02.972Z",
+    "updated_at": "2025-09-28T11:13:02.972Z"
+  },
+  {
+    "id": "id_0s42kkuv4mg3lped9",
+    "sesi_id": "id_zi285fkfkmg3lped8",
+    "nama_kegiatan": "Teknik Relaksasi",
+    "deskripsi": "Cara menenangkan diri saat stress",
+    "created_at": "2025-09-28T11:13:02.973Z",
+    "updated_at": "2025-09-28T11:13:02.973Z"
+  },
+  {
+    "id": "id_4mumnrjtumg3lped9",
+    "sesi_id": "id_zi285fkfkmg3lped8",
+    "nama_kegiatan": "Mengelola Emosi",
+    "deskripsi": "Strategi mengelola emosi negatif",
+    "created_at": "2025-09-28T11:13:02.973Z",
+    "updated_at": "2025-09-28T11:13:02.973Z"
+  },
+  {
+    "id": "id_rvlsz5jgqmg3lped9",
+    "sesi_id": "id_zi285fkfkmg3lped8",
+    "nama_kegiatan": "Positive Self-Talk",
+    "deskripsi": "Membangun dialog internal yang positif",
+    "created_at": "2025-09-28T11:13:02.973Z",
+    "updated_at": "2025-09-28T11:13:02.973Z"
+  },
+  {
+    "id": "id_p4z967i3vmg3lped9",
+    "sesi_id": "id_rstyrtlhhmg3lped9",
+    "nama_kegiatan": "Strategi Pencegahan",
+    "deskripsi": "Cara mencegah terjadinya bullying",
+    "created_at": "2025-09-28T11:13:02.973Z",
+    "updated_at": "2025-09-28T11:13:02.973Z"
+  },
+  {
+    "id": "id_aanm8w9xqmg3lped9",
+    "sesi_id": "id_rstyrtlhhmg3lped9",
+    "nama_kegiatan": "Intervensi Bystander",
+    "deskripsi": "Peran saksi dalam menghentikan bullying",
+    "created_at": "2025-09-28T11:13:02.973Z",
+    "updated_at": "2025-09-28T11:13:02.973Z"
+  },
+  {
+    "id": "id_hluhm824mmg3lped9",
+    "sesi_id": "id_rstyrtlhhmg3lped9",
+    "nama_kegiatan": "Membangun Budaya Positif",
+    "deskripsi": "Cara menciptakan lingkungan yang aman dan positif",
+    "created_at": "2025-09-28T11:13:02.973Z",
+    "updated_at": "2025-09-28T11:13:02.973Z"
+  },
+  {
+    "id": "id_ooualinwkmg3lped9",
+    "sesi_id": "id_2edga7sxumg3lped9",
+    "nama_kegiatan": "Cerita Inspiratif",
+    "deskripsi": "Membaca dan mendiskusikan cerita inspiratif",
+    "created_at": "2025-09-28T11:13:02.973Z",
+    "updated_at": "2025-09-28T11:13:02.973Z"
+  },
+  {
+    "id": "id_jjnn7225vmg3lpeda",
+    "sesi_id": "id_2edga7sxumg3lped9",
+    "nama_kegiatan": "Refleksi Diri",
+    "deskripsi": "Merefleksikan pembelajaran yang telah didapat",
+    "created_at": "2025-09-28T11:13:02.974Z",
+    "updated_at": "2025-09-28T11:13:02.974Z"
+  },
+  {
+    "id": "id_uzqpwmznmmg3lpeda",
+    "sesi_id": "id_2edga7sxumg3lped9",
+    "nama_kegiatan": "Sharing Pengalaman",
+    "deskripsi": "Berbagi pengalaman dan pembelajaran",
+    "created_at": "2025-09-28T11:13:02.974Z",
+    "updated_at": "2025-09-28T11:13:02.974Z"
+  },
+  {
+    "id": "id_2sudlyxlxmg3lpeda",
+    "sesi_id": "id_shjvstwy9mg3lpeda",
+    "nama_kegiatan": "Post-Test",
+    "deskripsi": "Tes akhir untuk mengukur peningkatan pengetahuan",
+    "created_at": "2025-09-28T11:13:02.974Z",
+    "updated_at": "2025-09-28T11:13:02.974Z"
+  },
+  {
+    "id": "id_hxohxu7bhmg3lpeda",
+    "sesi_id": "id_shjvstwy9mg3lpeda",
+    "nama_kegiatan": "Refleksi Program",
+    "deskripsi": "Merefleksikan seluruh program yang telah dijalani",
+    "created_at": "2025-09-28T11:13:02.974Z",
+    "updated_at": "2025-09-28T11:13:02.974Z"
+  },
+  {
+    "id": "id_78ng2q42nmg3lpeda",
+    "sesi_id": "id_shjvstwy9mg3lpeda",
+    "nama_kegiatan": "Komitmen Masa Depan",
+    "deskripsi": "Membuat komitmen untuk menerapkan pembelajaran",
+    "created_at": "2025-09-28T11:13:02.974Z",
+    "updated_at": "2025-09-28T11:13:02.974Z"
+  },
+  {
+    "id": "id_my8nn827emg3lr8se",
+    "nama_kegiatan": "Ice Breaking",
+    "deskripsi": null,
+    "sesi_id": "id_rg9heatn7mg3lpecz",
+    "created_at": "2025-09-28T11:14:29.054Z",
+    "updated_at": "2025-09-28T11:14:29.054Z"
+  },
+  {
+    "id": "id_3mpj1zwdkmg3lrfe9",
+    "nama_kegiatan": "Sharing Ekspektasi",
+    "deskripsi": null,
+    "sesi_id": "id_rg9heatn7mg3lpecz",
+    "created_at": "2025-09-28T11:14:37.617Z",
+    "updated_at": "2025-09-28T11:14:37.617Z"
+  },
+  {
+    "id": "id_yua6g1kutmg4lmk90",
+    "nama_kegiatan": "Ice Breaking",
+    "deskripsi": null,
+    "sesi_id": "id_rg9heatn7mg3lpecz",
+    "created_at": "2025-09-29T03:58:36.804Z",
+    "updated_at": "2025-09-29T03:58:36.804Z"
+  },
+  {
+    "id": "id_8jh159uowmg4lmm9f",
+    "nama_kegiatan": "Ice Breaking",
+    "deskripsi": null,
+    "sesi_id": "id_rg9heatn7mg3lpecz",
+    "created_at": "2025-09-29T03:58:39.411Z",
+    "updated_at": "2025-09-29T03:58:39.411Z"
+  },
+  {
+    "id": "id_2qdfh1353mg4lmvl1",
+    "nama_kegiatan": "Sharing Ekspektasi",
+    "deskripsi": null,
+    "sesi_id": "id_rg9heatn7mg3lpecz",
+    "created_at": "2025-09-29T03:58:51.493Z",
+    "updated_at": "2025-09-29T03:58:51.493Z"
+  },
+  {
+    "id": "id_ftzng9wesmg4m11pk",
+    "nama_kegiatan": "Ice Breaking",
+    "deskripsi": null,
+    "sesi_id": "id_rg9heatn7mg3lpecz",
+    "created_at": "2025-09-29T04:09:52.616Z",
+    "updated_at": "2025-09-29T04:09:52.616Z"
+  },
+  {
+    "id": "id_2q1e9oo9omg4m1883",
+    "nama_kegiatan": "Sharing Ekspektasi",
+    "deskripsi": null,
+    "sesi_id": "id_rg9heatn7mg3lpecz",
+    "created_at": "2025-09-29T04:10:01.059Z",
+    "updated_at": "2025-09-29T04:10:01.059Z"
+  },
+  {
+    "id": "id_i7jhrwbv5mg4m1f0a",
+    "nama_kegiatan": "Definisi Bullying",
+    "deskripsi": null,
+    "sesi_id": "id_yvb01bh20mg3lped6",
+    "created_at": "2025-09-29T04:10:09.850Z",
+    "updated_at": "2025-09-29T04:10:09.850Z"
+  },
+  {
+    "id": "id_22i035zcbmg4m1kjj",
+    "nama_kegiatan": "Dampak Bullying",
+    "deskripsi": null,
+    "sesi_id": "id_yvb01bh20mg3lped6",
+    "created_at": "2025-09-29T04:10:17.023Z",
+    "updated_at": "2025-09-29T04:10:17.023Z"
+  },
+  {
+    "id": "id_dkx08sys1mg4m1p6e",
+    "nama_kegiatan": "Jenis-jenis Bullying",
+    "deskripsi": null,
+    "sesi_id": "id_yvb01bh20mg3lped6",
+    "created_at": "2025-09-29T04:10:23.030Z",
+    "updated_at": "2025-09-29T04:10:23.030Z"
+  },
+  {
+    "id": "id_hqthg41memg4m1x2l",
+    "nama_kegiatan": "Strategi Pencegahan",
+    "deskripsi": null,
+    "sesi_id": "id_rstyrtlhhmg3lped9",
+    "created_at": "2025-09-29T04:10:33.261Z",
+    "updated_at": "2025-09-29T04:10:33.261Z"
+  },
+  {
+    "id": "id_rw71257xlmg4m24av",
+    "nama_kegiatan": "Intervensi Bystander",
+    "deskripsi": null,
+    "sesi_id": "id_rstyrtlhhmg3lped9",
+    "created_at": "2025-09-29T04:10:42.631Z",
+    "updated_at": "2025-09-29T04:10:42.631Z"
+  },
+  {
+    "id": "id_yhp9z5xwbmg4m2bsw",
+    "nama_kegiatan": "Membangun Budaya Positif",
+    "deskripsi": null,
+    "sesi_id": "id_rstyrtlhhmg3lped9",
+    "created_at": "2025-09-29T04:10:52.352Z",
+    "updated_at": "2025-09-29T04:10:52.352Z"
+  },
+  {
+    "id": "id_simdfz1s7mg4m2jrn",
+    "nama_kegiatan": "Teknik Relaksasi",
+    "deskripsi": null,
+    "sesi_id": "id_zi285fkfkmg3lped8",
+    "created_at": "2025-09-29T04:11:02.675Z",
+    "updated_at": "2025-09-29T04:11:02.675Z"
+  },
+  {
+    "id": "id_a2784emzgmg4m2okw",
+    "nama_kegiatan": "Mengelola Emosi",
+    "deskripsi": null,
+    "sesi_id": "id_zi285fkfkmg3lped8",
+    "created_at": "2025-09-29T04:11:08.912Z",
+    "updated_at": "2025-09-29T04:11:08.912Z"
+  },
+  {
+    "id": "id_5ba9ezi5img4m2sxx",
+    "nama_kegiatan": "Positive Self-Talk",
+    "deskripsi": null,
+    "sesi_id": "id_zi285fkfkmg3lped8",
+    "created_at": "2025-09-29T04:11:14.565Z",
+    "updated_at": "2025-09-29T04:11:14.565Z"
+  },
+  {
+    "id": "id_9segwv127mg4m2zgf",
+    "nama_kegiatan": "Strategi Komunikasi",
+    "deskripsi": null,
+    "sesi_id": "id_38y821d9emg3lped7",
+    "created_at": "2025-09-29T04:11:23.007Z",
+    "updated_at": "2025-09-29T04:11:23.007Z"
+  },
+  {
+    "id": "id_90k1y9z64mg4m33zo",
+    "nama_kegiatan": "Role Play",
+    "deskripsi": null,
+    "sesi_id": "id_38y821d9emg3lped7",
+    "created_at": "2025-09-29T04:11:28.884Z",
+    "updated_at": "2025-09-29T04:11:28.884Z"
+  },
+  {
+    "id": "id_6oaq8z0qamg4m3780",
+    "nama_kegiatan": "Membangun Kepercayaan Diri",
+    "deskripsi": null,
+    "sesi_id": "id_38y821d9emg3lped7",
+    "created_at": "2025-09-29T04:11:33.072Z",
+    "updated_at": "2025-09-29T04:11:33.072Z"
+  },
+  {
+    "id": "id_f7qdyndgemg4m3l04",
+    "nama_kegiatan": "Ciri-ciri Teman Sejati",
+    "deskripsi": null,
+    "sesi_id": "id_fqg1ovvg8mg3lped8",
+    "created_at": "2025-09-29T04:11:50.932Z",
+    "updated_at": "2025-09-29T04:11:50.932Z"
+  },
+  {
+    "id": "id_ded8vfyw8mg4m3r7i",
+    "nama_kegiatan": "Membangun Persahabatan",
+    "deskripsi": null,
+    "sesi_id": "id_fqg1ovvg8mg3lped8",
+    "created_at": "2025-09-29T04:11:58.974Z",
+    "updated_at": "2025-09-29T04:11:58.974Z"
+  },
+  {
+    "id": "id_gm9pjo1p2mg4m3z3a",
+    "nama_kegiatan": "Cerita Inspiratif",
+    "deskripsi": null,
+    "sesi_id": "id_2edga7sxumg3lped9",
+    "created_at": "2025-09-29T04:12:09.190Z",
+    "updated_at": "2025-09-29T04:12:09.190Z"
+  },
+  {
+    "id": "id_u3l4k411smg4m43hw",
+    "nama_kegiatan": "Refleksi Diri",
+    "deskripsi": null,
+    "sesi_id": "id_2edga7sxumg3lped9",
+    "created_at": "2025-09-29T04:12:14.900Z",
+    "updated_at": "2025-09-29T04:12:14.900Z"
+  },
+  {
+    "id": "id_e7o76igcgmg4m4dsl",
+    "nama_kegiatan": "Refleksi Program",
+    "deskripsi": null,
+    "sesi_id": "id_shjvstwy9mg3lpeda",
+    "created_at": "2025-09-29T04:12:28.245Z",
+    "updated_at": "2025-09-29T04:12:28.245Z"
+  },
+  {
+    "id": "id_c6y1nakdymg4nsxx6",
+    "nama_kegiatan": "Ice Breaking",
+    "deskripsi": null,
+    "sesi_id": "id_rg9heatn7mg3lpecz",
+    "created_at": "2025-09-29T04:59:33.690Z",
+    "updated_at": "2025-09-29T04:59:33.690Z"
+  },
+  {
+    "id": "id_etwhnlsbrmg4nt67u",
+    "nama_kegiatan": "Sharing Ekspektasi",
+    "deskripsi": null,
+    "sesi_id": "id_rg9heatn7mg3lpecz",
+    "created_at": "2025-09-29T04:59:44.442Z",
+    "updated_at": "2025-09-29T04:59:44.442Z"
+  },
+  {
+    "id": "id_in12sol52mg4ntdsz",
+    "nama_kegiatan": "Definisi Bullying",
+    "deskripsi": null,
+    "sesi_id": "id_yvb01bh20mg3lped6",
+    "created_at": "2025-09-29T04:59:54.275Z",
+    "updated_at": "2025-09-29T04:59:54.275Z"
+  },
+  {
+    "id": "id_pcis9cfkimg4ntkcv",
+    "nama_kegiatan": "Dampak Bullying",
+    "deskripsi": null,
+    "sesi_id": "id_yvb01bh20mg3lped6",
+    "created_at": "2025-09-29T05:00:02.767Z",
+    "updated_at": "2025-09-29T05:00:02.767Z"
+  },
+  {
+    "id": "id_eeabcrt1kmg4ntpjg",
+    "nama_kegiatan": "Jenis-jenis Bullying",
+    "deskripsi": null,
+    "sesi_id": "id_yvb01bh20mg3lped6",
+    "created_at": "2025-09-29T05:00:09.484Z",
+    "updated_at": "2025-09-29T05:00:09.484Z"
+  }
+]

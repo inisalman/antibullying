@@ -1,0 +1,196 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Student {
+  id          String   @id @default(cuid())
+  name        String
+  class       String
+  school      String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  // Sesi 1 - Perkenalan & Pre-Test
+  session1    Session1?
+  
+  // Sesi 2 - Kenali Bullying
+  session2    Session2?
+  
+  // Sesi 3 - Kendalikan Bullying
+  session3    Session3?
+  
+  // Sesi 4 - Coping Cerdas
+  session4    Session4?
+  
+  // Sesi 5 - Berani Bicara
+  session5    Session5?
+  
+  // Sesi 6 - Kawan Sejati
+  session6    Session6?
+  
+  // Sesi 7 - Refleksi & Cerita Inspiratif
+  session7    Session7?
+  
+  // Sesi 8 - Post-Test & Penutup
+  session8    Session8?
+}
+
+model Session1 {
+  id              String   @id @default(cuid())
+  studentId       String   @unique
+  student         Student  @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  
+  // Ice Breaking
+  positiveSentence String
+  
+  // Expectations
+  expectations     String
+  
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model Session2 {
+  id              String   @id @default(cuid())
+  studentId       String   @unique
+  student         Student  @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  
+  // Diskusi Interaktif
+  discussionAnswer String
+  
+  // Studi Kasus
+  caseStudyAnswer  String
+  
+  // Refleksi
+  reflection      String
+  
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model Session3 {
+  id              String   @id @default(cuid())
+  studentId       String   @unique
+  student         Student  @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  
+  // Role Play
+  rolePlayAnswer  String
+  
+  // Pernyataan Assertif
+  assertiveStatement String
+  
+  // Refleksi
+  reflection      String
+  
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model Session4 {
+  id              String   @id @default(cuid())
+  studentId       String   @unique
+  student         Student  @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  
+  // Emosi
+  emotions        String
+  
+  // Jurnal Emosi
+  emotionJournal  String
+  
+  // Coping Mechanisms
+  copingHealthy   String
+  copingUnhealthy String
+  
+  // Refleksi
+  reflection      String
+  
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model Session5 {
+  id              String   @id @default(cuid())
+  studentId       String   @unique
+  student         Student  @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  
+  // Diskusi Singkat
+  discussionAnswer String
+  
+  // Kalimat Aku
+  iStatement      String
+  
+  // Tanya Jawab
+  qaAnswer        String
+  
+  // Evaluasi Video
+  videoAnalysis   String
+  
+  // Refleksi
+  reflection      String
+  
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model Session6 {
+  id              String   @id @default(cuid())
+  studentId       String   @unique
+  student         Student  @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  
+  // Teman Ideal
+  idealFriend     String
+  
+  // Diskusi Kelompok
+  groupDiscussion String
+  
+  // Proyek Mini
+  projectDescription String
+  
+  // Refleksi
+  reflection      String
+  
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model Session7 {
+  id              String   @id @default(cuid())
+  studentId       String   @unique
+  student         Student  @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  
+  // Sharing Bebas
+  sharing         String
+  
+  // Refleksi Digital
+  biggestLesson   String
+  desiredChange   String
+  
+  // Refleksi
+  reflection      String
+  
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model Session8 {
+  id              String   @id @default(cuid())
+  studentId       String   @unique
+  student         Student  @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  
+  // Saya Bangga Karena
+  proudStatements String
+  
+  // Refleksi
+  reflection      String
+  
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "id_we3svdhb7mg3lr8pj",
+    "nama": "salman",
+    "kelas": "salman",
+    "email": null,
+    "created_at": "2025-09-28T11:14:28.951Z",
+    "updated_at": "2025-09-28T11:14:28.951Z"
+  },
+  {
+    "id": "id_kqcmc4wbfmg3m0o3a",
+    "nama": "Test Student",
+    "kelas": "X-A",
+    "email": "test@example.com",
+    "created_at": "2025-09-28T11:21:48.790Z",
+    "updated_at": "2025-09-28T11:21:48.795Z"
+  },
+  {
+    "id": "id_m6r1io3hsmg4lmk0p",
+    "nama": "salman",
+    "kelas": "12",
+    "email": null,
+    "created_at": "2025-09-29T03:58:36.505Z",
+    "updated_at": "2025-09-29T03:58:36.505Z"
+  },
+  {
+    "id": "id_a15te3cbtmg4lmm8y",
+    "nama": "salman",
+    "kelas": "12",
+    "email": null,
+    "created_at": "2025-09-29T03:58:39.394Z",
+    "updated_at": "2025-09-29T03:58:39.394Z"
+  },
+  {
+    "id": "id_q2a7xlhrjmg4m11kj",
+    "nama": "salman al farisi",
+    "kelas": "salman al farisi",
+    "email": null,
+    "created_at": "2025-09-29T04:09:52.435Z",
+    "updated_at": "2025-09-29T04:09:52.435Z"
+  },
+  {
+    "id": "id_709fg952umg4nsxpk",
+    "nama": "jam 12",
+    "kelas": "jam 12",
+    "email": null,
+    "created_at": "2025-09-29T04:59:33.416Z",
+    "updated_at": "2025-09-29T04:59:33.416Z"
+  }
+]

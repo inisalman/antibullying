@@ -1,0 +1,58 @@
+[
+  {
+    "id": "id_rg9heatn7mg3lpecz",
+    "nama_sesi": "Sesi 1: Perkenalan & Pre-Test",
+    "deskripsi": "Sesi perkenalan dan pre-test untuk mengukur pengetahuan awal siswa tentang bullying",
+    "created_at": "2025-09-28T11:13:02.963Z",
+    "updated_at": "2025-09-28T11:13:02.970Z"
+  },
+  {
+    "id": "id_yvb01bh20mg3lped6",
+    "nama_sesi": "Sesi 2: Kenali Bullying",
+    "deskripsi": "Mengenali berbagai bentuk dan dampak bullying",
+    "created_at": "2025-09-28T11:13:02.970Z",
+    "updated_at": "2025-09-28T11:13:02.970Z"
+  },
+  {
+    "id": "id_38y821d9emg3lped7",
+    "nama_sesi": "Sesi 3: Berani Bicara",
+    "deskripsi": "Membangun keberanian untuk melaporkan dan membela diri",
+    "created_at": "2025-09-28T11:13:02.971Z",
+    "updated_at": "2025-09-28T11:13:02.971Z"
+  },
+  {
+    "id": "id_fqg1ovvg8mg3lped8",
+    "nama_sesi": "Sesi 4: Kawan Sejati",
+    "deskripsi": "Membangun persahabatan yang sehat dan mendukung",
+    "created_at": "2025-09-28T11:13:02.972Z",
+    "updated_at": "2025-09-28T11:13:02.972Z"
+  },
+  {
+    "id": "id_zi285fkfkmg3lped8",
+    "nama_sesi": "Sesi 5: Coping Cerdas",
+    "deskripsi": "Strategi mengatasi stress dan emosi negatif",
+    "created_at": "2025-09-28T11:13:02.972Z",
+    "updated_at": "2025-09-28T11:13:02.972Z"
+  },
+  {
+    "id": "id_rstyrtlhhmg3lped9",
+    "nama_sesi": "Sesi 6: Kendalikan Bullying",
+    "deskripsi": "Strategi mencegah dan menghentikan bullying",
+    "created_at": "2025-09-28T11:13:02.973Z",
+    "updated_at": "2025-09-28T11:13:02.973Z"
+  },
+  {
+    "id": "id_2edga7sxumg3lped9",
+    "nama_sesi": "Sesi 7: Refleksi Cerita Inspiratif",
+    "deskripsi": "Refleksi melalui cerita inspiratif dan pembelajaran",
+    "created_at": "2025-09-28T11:13:02.973Z",
+    "updated_at": "2025-09-28T11:13:02.973Z"
+  },
+  {
+    "id": "id_shjvstwy9mg3lpeda",
+    "nama_sesi": "Sesi 8: Post-Test & Penutup",
+    "deskripsi": "Evaluasi akhir dan penutupan program",
+    "created_at": "2025-09-28T11:13:02.974Z",
+    "updated_at": "2025-09-28T11:13:02.974Z"
+  }
+]
