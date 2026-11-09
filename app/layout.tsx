@@ -1,10 +1,10 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Nunito_Sans } from 'next/font/google';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
-const inter = Inter({ 
+const nunito = Nunito_Sans({
   subsets: ['latin'],
   display: 'swap'
 });
@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="id">
-      <body className={inter.className}>
+      <body className={nunito.className}>
         <div className="min-h-screen flex flex-col">
           <Navbar />
           <main className="flex-1">

@@ -1,36 +1,13 @@
-// Use Vercel-compatible database (in-memory)
-const db = require('../../lib/vercelDb')
-
+const db = require('../../lib/repository')
+const { requireAdmin } = require('../../lib/adminAuth')
 export default async function handler(req, res) {
-  if (req.method === 'POST') {
-    try {
-      const { nama, kelas, email } = req.body
-
-      if (!nama || !kelas) {
-        return res.status(400).json({ error: 'Missing required fields' })
-      }
-
-      const newSiswa = db.siswa.create({
-        nama,
-        kelas,
-        email: email || null
-      })
-
-      res.status(201).json(newSiswa)
-    } catch (error) {
-      console.error('Error creating siswa:', error)
-      res.status(500).json({ error: 'Failed to create siswa' })
-    }
-  } else if (req.method === 'GET') {
-    try {
-      const siswa = db.siswa.getAll()
-      res.status(200).json(siswa)
-    } catch (error) {
-      console.error('Error fetching siswa:', error)
-      res.status(500).json({ error: 'Failed to fetch siswa' })
-    }
-  } else {
-    res.setHeader('Allow', ['GET', 'POST'])
-    res.status(405).end(`Method ${req.method} Not Allowed`)
-  }
+  res.setHeader('Cache-Control', 'no-store')
+  try {
+    if (req.method === 'GET') { if (!requireAdmin(req, res)) return; return res.status(200).json(await db.list('siswa')) }
+    if (req.method !== 'POST') return res.status(405).json({ error: 'Metode tidak didukung.' })
+    const { nama, kelas, sekolah } = req.body || {}
+    if (typeof nama !== 'string' || !nama.trim() || nama.length > 120 || typeof kelas !== 'string' || !kelas.trim() || kelas.length > 80 || (sekolah != null && (typeof sekolah !== 'string' || sekolah.length > 160))) return res.status(400).json({ error: 'Isi nama dan kelas dengan benar.' })
+    const student = await db.insert('siswa', { nama: nama.trim(), kelas: kelas.trim(), sekolah: (sekolah || '').trim() || null })
+    return res.status(201).json({ id: student.id, nama: student.nama, kelas: student.kelas, sekolah: student.sekolah })
+  } catch (error) { console.error('Siswa:', error.message); return res.status(500).json({ error: 'Data siswa belum dapat disimpan. Periksa konfigurasi penyimpanan.' }) }
 }

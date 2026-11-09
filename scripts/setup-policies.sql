@@ -10,10 +10,6 @@ DROP POLICY IF EXISTS "Public access" ON public.sesi;
 DROP POLICY IF EXISTS "Public access" ON public.kegiatan;
 DROP POLICY IF EXISTS "Public access" ON public.jawaban;
 
--- Create policies for public access
-CREATE POLICY "Public access" ON public.siswa FOR ALL USING (true);
-CREATE POLICY "Public access" ON public.sesi FOR ALL USING (true);
-CREATE POLICY "Public access" ON public.kegiatan FOR ALL USING (true);
-CREATE POLICY "Public access" ON public.jawaban FOR ALL USING (true);
+-- No public policies: the backend accesses these tables with its service role.
 
 

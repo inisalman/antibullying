@@ -77,7 +77,7 @@ const testData = [
 ];
 
 async function testAllSessions() {
-  console.log('🧪 Testing all sessions with Google Sheets integration...\n');
+  console.log('🧪 Testing all sessions...\n');
   
   let totalTests = 0;
   let successCount = 0;
@@ -130,8 +130,7 @@ async function testAllSessions() {
   
   if (successCount === totalTests) {
     console.log('\n🎉 All sessions tested successfully!');
-    console.log('📋 Check your Google Sheets for the new test data.');
-    console.log('🔍 Each session should have its own sheet (Sesi 1, Sesi 2, etc.)');
+    console.log('📋 Check the admin dashboard for the new test data.');
   } else {
     console.log('\n⚠️  Some tests failed. Please check the errors above.');
   }

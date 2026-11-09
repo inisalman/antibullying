@@ -8,6 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
+    "cf:build": "node scripts/build-cloudflare.cjs",
+    "cf:preview": "opennextjs-cloudflare preview",
+    "cf:deploy": "node scripts/deploy-cloudflare.cjs",
     "db:generate": "prisma generate",
     "db:push": "prisma db push",
     "db:seed": "node scripts/seed.js"
@@ -15,6 +18,7 @@
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
     "@next/swc-wasm-nodejs": "13.5.1",
+    "@opennextjs/cloudflare": "^1.20.16",
     "@prisma/client": "^6.16.2",
     "@radix-ui/react-accordion": "^1.2.0",
     "@radix-ui/react-alert-dialog": "^1.1.1",
@@ -55,11 +59,10 @@
     "dotenv": "^17.2.2",
     "embla-carousel-react": "^8.3.0",
     "eslint": "8.49.0",
-    "eslint-config-next": "13.5.1",
-    "googleapis": "^160.0.0",
+    "eslint-config-next": "^15.5.29",
     "input-otp": "^1.2.4",
     "lucide-react": "^0.446.0",
-    "next": "13.5.1",
+    "next": "^15.5.29",
     "next-themes": "^0.3.0",
     "postcss": "8.4.30",
     "prisma": "^6.16.2",
@@ -75,6 +78,7 @@
     "tailwindcss-animate": "^1.0.7",
     "typescript": "5.2.2",
     "vaul": "^0.9.9",
+    "wrangler": "^4.158.0",
     "xlsx": "^0.18.5",
     "zod": "^3.23.8"
   }

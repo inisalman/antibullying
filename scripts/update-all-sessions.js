@@ -161,7 +161,7 @@ async function updateSessionFile(sessionConfig) {
 }
 
 async function updateAllSessions() {
-  console.log('🚀 Updating all session files to support Google Sheets integration...\n');
+  console.log('🚀 Updating session files...\n');
   
   let successCount = 0;
   let totalCount = sessionConfigs.length;
@@ -180,8 +180,8 @@ async function updateAllSessions() {
   if (successCount === totalCount) {
     console.log('\n🎉 All session files updated successfully!');
     console.log('📋 Next steps:');
-    console.log('1. Test each session to ensure answers are saved to Google Sheets');
-    console.log('2. Check Google Sheets for new data');
+    console.log('1. Test each session to ensure answers are saved to the backend');
+    console.log('2. Check the admin dashboard for new data');
     console.log('3. Verify all activities are properly mapped');
   } else {
     console.log('\n⚠️  Some files failed to update. Please check the errors above.');

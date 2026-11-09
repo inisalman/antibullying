@@ -1,3 +1,5 @@
+> **Arsip:** Integrasi Google Sheets dan petunjuk Vercel dalam dokumen ini sudah tidak aktif. Gunakan `CLOUDFLARE_SUPABASE_SETUP.md` untuk konfigurasi saat ini.
+
 # 🔧 Fix Vercel Read-Only File System Issue
 
 ## 🚨 **Masalah yang Ditemukan**
@@ -83,8 +85,8 @@ curl -X POST https://your-app.vercel.app/api/admin/initialize
 ```
 📊 Loaded existing data: { siswa: 0, sesi: 8, kegiatan: 24, jawaban: 0 }
 🔧 Initializing Google Sheets API...
-📊 Sheet ID: 1_z6EiJdOqOgHsGkKIf4pbJZ4NLYMm81PiMZbl0xKiIo
-📧 Client Email: sheetsserviceaccount@antibully-473603.iam.gserviceaccount.com
+📊 Sheet ID: [sheet-dihapus]
+📧 Client Email: [akun-dihapus]
 ✅ Google Sheets API initialized successfully
 🚀 Starting addAnswerToSheet...
 📝 Input data: { nama: 'User', sesi: '1', kegiatan: 'Test', jawaban: 'Answer' }

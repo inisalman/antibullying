@@ -1,3 +1,5 @@
+> **Arsip:** Integrasi Google Sheets dan petunjuk Vercel dalam dokumen ini sudah tidak aktif. Gunakan `CLOUDFLARE_SUPABASE_SETUP.md` untuk konfigurasi saat ini.
+
 # 🎉 Google Sheets Integration - SEMUA SESI BERHASIL!
 
 ## Status: ✅ COMPLETED

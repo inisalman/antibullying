@@ -1,3 +1,5 @@
+import { learningVideos, type LearningVideo } from './learningVideos';
+
 export interface Activity {
   id: string;
   title: string;
@@ -5,6 +7,8 @@ export interface Activity {
   description: string;
   url?: string;
   duration?: string;
+  content?: string[];
+  videos?: LearningVideo[];
 }
 
 export interface Session {
@@ -40,9 +44,15 @@ export const sessions: Session[] = [
       {
         id: "facilitator-intro",
         title: "Perkenalan Fasilitator & Tujuan Program",
-        type: "video",
+        type: "reading",
         description: "Pengenalan fasilitator dan penjelasan tujuan program pencegahan bullying",
-        url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        content: [
+          "Selamat datang! Di program ini, kamu akan belajar mengenali bullying, memahami perasaanmu, dan membangun pertemanan yang saling menjaga.",
+          "Fasilitator adalah pendamping belajarmu selama program. Perannya membantu menjelaskan materi, memandu diskusi, dan mendukungmu saat ada hal yang belum kamu pahami. Kamu bisa menanyakan kepada guru atau penyelenggara siapa fasilitator yang mendampingi kelasmu.",
+          "Selama 8 sesi, kamu akan mengikuti bacaan, video, kuis, latihan, dan refleksi. Ikuti kegiatannya secara berurutan dan luangkan waktu untuk memahami setiap materi.",
+          "Kita belajar dengan saling menghargai: dengarkan teman, hindari ejekan, dan jangan menyebarkan cerita pribadi orang lain. Kamu tidak perlu menceritakan pengalaman pribadi yang membuatmu tidak nyaman.",
+          "Kalau kamu mengalami atau menyaksikan bullying, ceritakan kepada guru BK, wali kelas, orang tua, atau orang dewasa yang kamu percaya. Kamu tidak harus menghadapinya sendirian."
+        ],
         duration: "8 menit"
       },
       {
@@ -86,7 +96,7 @@ export const sessions: Session[] = [
         title: "Video: Apa Itu Bullying?",
         type: "video",
         description: "Penjelasan komprehensif tentang definisi dan karakteristik bullying",
-        url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        videos: [learningVideos.bullying, learningVideos.cyberbullying],
         duration: "10 menit"
       },
       {
@@ -131,15 +141,15 @@ export const sessions: Session[] = [
         title: "Video: Mengendalikan Emosi",
         type: "video",
         description: "Teknik-teknik praktis untuk mengelola emosi dalam situasi sulit",
-        url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        videos: [learningVideos.lifeSkills],
         duration: "12 menit"
       },
       {
         id: "breathing-exercise",
-        title: "Latihan Pernapasan",
+        title: "Video: Kecakapan Hidup Remaja",
         type: "video",
-        description: "Panduan teknik pernapasan untuk menenangkan diri",
-        url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        description: "Materi pendamping untuk mengenali emosi dan menghadapi tekanan teman sebaya",
+        videos: [learningVideos.lifeSkills],
         duration: "8 menit"
       },
       {
@@ -177,7 +187,7 @@ export const sessions: Session[] = [
         title: "Video: Strategi Coping",
         type: "video",
         description: "Berbagai strategi mengatasi stress dan tekanan dari bullying",
-        url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        videos: [learningVideos.lifeSkills],
         duration: "15 menit"
       },
       {
@@ -223,15 +233,15 @@ export const sessions: Session[] = [
         title: "Video: Pentingnya Bersuara",
         type: "video",
         description: "Mengapa penting untuk melaporkan bullying dan bagaimana caranya",
-        url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        videos: [learningVideos.speakUp],
         duration: "10 menit"
       },
       {
         id: "communication-skills",
-        title: "Video: Keterampilan Komunikasi",
+        title: "Video: Peran Siswa Menghentikan Perundungan",
         type: "video",
-        description: "Cara berkomunikasi yang assertif dan efektif",
-        url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        description: "Pemantik diskusi tentang tindakan yang dapat dilakukan siswa untuk menghentikan perundungan",
+        videos: [learningVideos.speakUp],
         duration: "12 menit"
       },
       {
@@ -269,7 +279,7 @@ export const sessions: Session[] = [
         title: "Video: Pertemanan yang Sehat",
         type: "video",
         description: "Karakteristik dan manfaat memiliki pertemanan yang positif",
-        url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        videos: [learningVideos.bullying],
         duration: "10 menit"
       },
       {
@@ -313,8 +323,8 @@ export const sessions: Session[] = [
         id: "inspirational-stories",
         title: "Video: Cerita Inspiratif",
         type: "video",
-        description: "Kisah-kisah nyata tentang pencegahan dan mengatasi bullying",
-        url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        description: "Cerita animasi untuk merefleksikan dampak bullying dan pentingnya saling mendukung",
+        videos: [learningVideos.story],
         duration: "15 menit"
       },
       {
@@ -380,11 +390,17 @@ export const sessions: Session[] = [
         duration: "10 menit"
       },
       {
-        id: "closing-video",
-        title: "Video Penutup",
-        type: "video",
+        id: "closing-message",
+        title: "Pesan Penutup & Ucapan Terima Kasih",
+        type: "reading",
         description: "Pesan penutup dan apresiasi atas partisipasi dalam program",
-        url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        content: [
+          "Terima kasih sudah meluangkan waktu untuk belajar bersama. Setiap langkah untuk memahami bullying dan peduli kepada teman adalah hal yang berarti.",
+          "Bawa hal yang kamu pelajari ke keseharian: pikirkan dampak ucapanmu, hargai perbedaan, dan ajak teman yang tersisih untuk bergabung.",
+          "Jika melihat bullying, utamakan keselamatanmu. Jangan ikut mengejek atau menyebarkan kontennya. Cari bantuan guru atau orang dewasa yang kamu percaya, lalu dukung teman yang mengalaminya.",
+          "Kalau kamu yang mengalami bullying, itu bukan salahmu. Kamu berhak merasa aman dan mendapat bantuan. Tidak apa-apa meminta dukungan lagi jika masalahnya belum selesai.",
+          "Pilih satu tindakan baik yang ingin kamu lakukan mulai hari ini. Terus jadi teman yang mau mendengar, peduli, dan saling menjaga."
+        ],
         duration: "5 menit"
       }
     ]

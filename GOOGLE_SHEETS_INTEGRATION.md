@@ -1,3 +1,5 @@
+> **Arsip:** Integrasi Google Sheets dan petunjuk Vercel dalam dokumen ini sudah tidak aktif. Gunakan `CLOUDFLARE_SUPABASE_SETUP.md` untuk konfigurasi saat ini.
+
 # Google Sheets Integration
 
 ## Overview
@@ -10,10 +12,10 @@ Aplikasi menggunakan Google Service Account untuk mengakses Google Sheets API:
 
 ```javascript
 // lib/googleSheets.js
-const GOOGLE_SHEET_ID = "1_z6EiJdOqOgHsGkKIf4pbJZ4NLYMm81PiMZbl0xKiIo";
+const GOOGLE_SHEET_ID = "[sheet-dihapus]";
 const SERVICE_ACCOUNT_KEY = {
   "private_key": "-----BEGIN PRIVATE KEY-----\n...",
-  "client_email": "sheetsserviceaccount@antibully-473603.iam.gserviceaccount.com"
+  "client_email": "[akun-dihapus]"
   // ... other credentials
 };
 ```

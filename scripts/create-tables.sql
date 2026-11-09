@@ -42,8 +42,4 @@ ALTER TABLE public.sesi ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.kegiatan ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.jawaban ENABLE ROW LEVEL SECURITY;
 
--- Create policies for public access
-CREATE POLICY "Public access" ON public.siswa FOR ALL USING (true);
-CREATE POLICY "Public access" ON public.sesi FOR ALL USING (true);
-CREATE POLICY "Public access" ON public.kegiatan FOR ALL USING (true);
-CREATE POLICY "Public access" ON public.jawaban FOR ALL USING (true);
+-- Access is handled server-side with the Supabase service role.

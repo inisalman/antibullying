@@ -1,3 +1,5 @@
+> **Arsip:** Integrasi Google Sheets dan petunjuk Vercel dalam dokumen ini sudah tidak aktif. Gunakan `CLOUDFLARE_SUPABASE_SETUP.md` untuk konfigurasi saat ini.
+
 # 🔧 Setup Environment Variables di Vercel
 
 ## Masalah yang Ditemukan
@@ -23,13 +25,13 @@ Anda perlu menambahkan environment variables berikut di dashboard Vercel:
 
 | Variable Name | Value |
 |---------------|-------|
-| `GOOGLE_SHEET_ID` | `1_z6EiJdOqOgHsGkKIf4pbJZ4NLYMm81PiMZbl0xKiIo` |
-| `GOOGLE_PROJECT_ID` | `antibully-473603` |
+| `GOOGLE_SHEET_ID` | `[sheet-dihapus]` |
+| `GOOGLE_PROJECT_ID` | `[project-dihapus]` |
 | `GOOGLE_PRIVATE_KEY_ID` | `your-private-key-id` |
-| `GOOGLE_PRIVATE_KEY` | `-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDVqXI2kXWelanG\nL23APvv/t4n6AxiYEcMfd3hP7SQVNql3ujp5iDAxdenNaTzspUNMgOmzDAZDKKQo\npzhmDXPxWYbuEBo3FQ8TB5nWji+12+l6a6p+PRuZWkeT5VrpUxu4rjydIgyx4Pns\niqOvUktPZNJhuhs+YUGSRQHGpOCuoVTJ+JifwNCvP+kyM/AYRug9eeygBV8i7c0n\nu1O7DgxZsQ200mqfwOUgm7QfGCa1f7hmjHOBzmz1Q0vilgdSewIQq6Va00MW4VPP\ntZuHOHpcFl/9sltIlA0toPsMpLUgzzwc1S3PZvbKYuM3+YWkVs2g4glKbgZhKKUj\nTlhubZf9AgMBAAECggEAEanigVRhLu0cjf/ZyOzsFGXuCDc9T0UYpn9P+PuX4hEU\nzYsdznJN2ajv3UV3/fBjse1uZJj345F2kM3SQc2W6jsGhqPaJvecuWwFcdFrbFNz\n5+UCwVD3+SOXi0iIzYVLY2c0J6Fq/0GkJ8QGaDYbd8LUCbRDEFMmApul2/BBiu4w\n0KLbD3LW13q2glKcU3JWcxkfXIQKFfLLA6a5rIdkGTk7/off4uGVruwXZiktoKgj\nMY7NaQvPFZYmnVe9chJKVcy/cGDaq73pLkA1aW9N+BHp/5oTAQkX/J48vWFFyDzJ\n0IGQ7GM9thlEU90gNEh+8QWSCoP5VE51giQxB9WYmQKBgQDu0iB/w/yLO9DAST7I\n1vcD978NC+xt7WBBuOLMfKI/6VoQWMBzBXZucaXzZJ9vyqBv4zvdpjgNFGAytJEg\n4b9+fTzumQbNHg3SpX6JfNVMJrwunNsZxmH3CYnnvQ/ys0x53LyByKHsjrNiRHLH\nbcVFCrqMKZGoPeYAjV9PG4TORwKBgQDlCATng+L4UvKD3Uf/wGIKYelARNckVYv8\nt597d3LbPwrcG1gQ/MjgsDL5OjVAbCi3eFpeHCrsDN2bnQonp3XZMEBBhifK5i6n\nPZ3Oxge7nBRCgXCZuA5RN4voVN9cA1xLf1iUr+qlbtu1oPWWjRjk11W+VESbvQWC\nocKpHzA1mwKBgEyyUNuXXmh8qjrGixJG7wdoLgQLmz9mZ25T6QpQ0G6EC3eKeSu3\nSmSHvQrges+VHFcye8xgEEorDAXctWsA9NWzdLkPjf6bs0a9/Vg8LegJ3I9/smGh\ns155wr8YmaGQ8XOFb0ii3VWyMmvRnabsWtkka+qNgwir8EynGj+2j70LAoGAWhGO\nRDG0l62fG8Zw4x4YMDcTEKhB51MRK0BXIqn17Ezdi3PhbUTMBrikQyjl+kDOvmBB\nQZNYOd5RZDoc3T1Y9iGok1wb2AovvKtZnRB5yAj4WrMmwf0E/GGYzrRZ5oiXykT5\nY/fOkmKHWuVCz4MLkCsy2Bexp4FtYlMVB4dxYRMCgYEApON+XT0L20xDbWZW9G6/\n+o5XajJJ9emV/LvxAZBxcwS9YNQ9Sn23jAUafJw0KY1AxVKHlB8JDztJnYkPnrXR\nRxRFeQGJoSlVGi4+Y2fYmgQ7D/vW0beBGGh89sKSDWPCH9aeBijrnHoSCl7huMUF\nMHZwR3GXNKoIw/J1lotaos8=\n-----END PRIVATE KEY-----\n` |
-| `GOOGLE_CLIENT_EMAIL` | `sheetsserviceaccount@antibully-473603.iam.gserviceaccount.com` |
+| `GOOGLE_PRIVATE_KEY` | `[REMOVED: rotate exposed service account key]\n` |
+| `GOOGLE_CLIENT_EMAIL` | `[akun-dihapus]` |
 | `GOOGLE_CLIENT_ID` | `your-client-id` |
-| `GOOGLE_CLIENT_X509_CERT_URL` | `https://www.googleapis.com/robot/v1/metadata/x509/sheetsserviceaccount%40antibully-473603.iam.gserviceaccount.com` |
+| `GOOGLE_CLIENT_X509_CERT_URL` | `https://www.googleapis.com/robot/v1/metadata/x509/[akun-dihapus]` |
 
 ### 2. Important Notes
 
@@ -58,8 +60,8 @@ Setelah redeploy, coba submit jawaban dan check logs di Vercel dashboard:
 Jika setup benar, Anda akan melihat logs seperti:
 ```
 🔧 Initializing Google Sheets API...
-📊 Sheet ID: 1_z6EiJdOqOgHsGkKIf4pbJZ4NLYMm81PiMZbl0xKiIo
-📧 Client Email: sheetsserviceaccount@antibully-473603.iam.gserviceaccount.com
+📊 Sheet ID: [sheet-dihapus]
+📧 Client Email: [akun-dihapus]
 ✅ Google Sheets API initialized successfully
 🚀 Starting addAnswerToSheet...
 📝 Input data: { nama: 'Test', sesi: '1', kegiatan: 'Test', jawaban: 'Test' }
